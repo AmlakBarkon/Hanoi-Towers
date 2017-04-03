@@ -1,0 +1,37 @@
+
+Project: HANOI TOWER
+
+
+5 stories:
+	As the user, I must be able to move discs from one tower to the next.
+	As the developer, I should make the site look clean and not cluttered.
+	As the user, I should be able to navigate the site/game with ease.
+	As the developer, There needs to be an end to the game.
+	As the user, I should be able clearly understand the rules of the game.
+	(was a little confused with what exactly I’m supposed to say)
+
+
+
+				Versions
+
+
+
+
+Bronze:
+	basic 3 towers images with 3 rings with all functionality
+	Title and instruction txt
+	rings are basic, different colored, rectangles 
+	
+Silver: 
+	Background added (maybe of Hanoi)
+	Instructions button added with explanation in a drop down menu
+	add a move count 
+	add 3 more discs (6 total)
+	all txt styled 
+	rings styled, curved and more cylindrical 
+Gold:
+	Towers styled like the Hanoi towers in Vietnam
+	add 2 more discs (8 total)
+	add a solution button
+	
+
