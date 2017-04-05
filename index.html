@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Welcome to Hanoi</title>
+</head>
+<body>
+  <h1> Tower of Hanoi </h1>
+  <div id = "towers">
+    <div id = "tower1" ondragenter = "drag_enter(event)" ondrop = "drag_drop(event)" ondragover = "return false" ondragleave="drag_leave(event)"></div>
+    <div id = "tower2" ondragenter = "drag_enter(event)" ondrop = "drag_drop(event)" ondragover = "return false" ondragleave="drag_leave(event)"></div>
+    <div id = "tower3" ondragenter = "drag_enter(event)" ondrop = "drag_drop(event)" ondragover = "return false" ondragleave="drag_leave(event)"></div>
+  </div>
+  <div id="discs">
+    <div id = "disc3" class="discs" draggable = "true" ondragstart="drag_start(event)" ondragend="drag_end(event)"></div>
+    <div id = "disc2" class="discs" draggable = "true" ondragstart="drag_start(event)" ondragend="drag_end(event)"></div>
+    <div id = "disc1" class="discs" draggable = "true" ondragstart="drag_start(event)" ondragend="drag_end(event)"></div>
+  </div>
+  <footer>
+    <h2> Intructions </h2>
+      <p> In order to complete this game you must move all of the rings from tower 1 to tower 3. Your are permited to move the rings to any tower as long as it isnt placed on top of a smaller ring. Good luck!</p>
+<link href= "script.js" />
+</body>
+</html>
